@@ -1,0 +1,22 @@
+{
+  "name": "daniel-pfeil/serviceproviderAuthenticator",
+  "type": "library",
+  "description": "These package should give you a base frame for developing new authenticator that should be compatible.",
+  "keywords": [
+    "SAML",
+    "SSO",
+    "authentication",
+  ],
+  "version": "0.0.1",
+  "require": {
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "phpspec/phpspec": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DanielPfeil\\ServiceProviderAuthenticator": "./"
+    }
+  }
+}
