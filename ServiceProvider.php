@@ -1,4 +1,5 @@
 <?php
+namespace DanielPfeil\ServiceProviderAuthenticator;
 
 interface ServiceProvider
 {
@@ -7,7 +8,8 @@ interface ServiceProvider
     public function getIdentityProvider():string;
     public function getAuthenticationInstant():string;
     public function getAuthenticationMethod():string;
-    public function getAuthentcationContext():string;
+    public function getAuthenticationContextClass():string;
+    public function getSessionIndex();
     public function getPrefix():string;
     public function getCookieName():string;
 }
