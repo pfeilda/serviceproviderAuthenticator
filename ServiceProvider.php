@@ -12,7 +12,7 @@ interface ServiceProvider
     public function getSessionIndex():?string;
     public function getPrefix():?string;
     public function getCookieName():?string;
-    public function isSessionExisting():?string;
+    public function isSessionExisting():bool;
     public function getField(string $fieldame):?string;
     public function getPrefixedField(string $fieldname, bool $useShortPrefix = true):?string;
 }
