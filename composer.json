@@ -11,8 +11,7 @@
   "require": {
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "*",
-    "phpspec/phpspec": "^4.0"
+    "squizlabs/php_codesniffer": "*"
   },
   "autoload": {
     "psr-4": {
