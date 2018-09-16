@@ -1,5 +1,5 @@
 {
-  "name": "daniel-pfeil/serviceproviderAuthenticator",
+  "name": "daniel-pfeil/serviceprovider-authenticator",
   "type": "library",
   "description": "These package should give you a base frame for developing new authenticator that should be compatible.",
   "keywords": [
