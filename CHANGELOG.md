@@ -7,6 +7,9 @@ It is described [here](https://semver.org/).
 
 - maybe add a check suite for security reasons of the service provider
 
+## Release 1.2.1 - 2019-04-23
++ changed interface signature(corrected spelling mistake)
+
 ## Release 1.2.0 - 2018-10-02
 
 ### Added
