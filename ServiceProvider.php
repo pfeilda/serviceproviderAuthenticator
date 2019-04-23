@@ -30,6 +30,6 @@ interface ServiceProvider
     public function getPrefix():?string;
     public function getCookieName():?string;
     public function isSessionExisting():bool;
-    public function getField(string $fieldame):?string;
-    public function getPrefixedField(string $fieldname, bool $useShortPrefix = true):?string;
+    public function getField(string $fieldName):?string;
+    public function getPrefixedField(string $fieldName, bool $useShortPrefix = true):?string;
 }
